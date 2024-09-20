@@ -1,4 +1,4 @@
-# Erstellen einer ToDo-Applikation mit Markdown, Git, GitHub und Docker
+# Erstellen einer ToDo-Applikation mit Markdown, Git, GitHub und Docker 📋✏️📝
 
 - **Klonen des Repositories**
 1. Von der Git-Hub-Seite klickst du auf "Code"
@@ -26,18 +26,18 @@
 
 ---
 
-- **Starten der Applikation in einem Docker-Container**
+- **Starten der Applikation in einem Docker-Container 🐋**
 Nach der Konfiguration, muss man es nur noch ausführen.
 1. Man geht wieder in den CMD oder Git-Bash
 2. Dort tippt man:
 3. `$ docker compose up --build`
 4. Die Applikation sollte ausgeführt werden.
-5. Wenn alles geklappt han kann man auf [localhost:3000](localhost:3000)
+5. Wenn alles geklappt han kann man auf [localhost:3000](http://localhost:3000)
 6. Zum schliessen gilt `$ docker compose down`
 7. Und dann wieder zu öffnen `$ docker compose up`  
 
+Es Sollte so aussehen:
 
-
-
+![localhost](https://github.com/user-attachments/assets/cf71a306-2f4d-4941-b75d-3d1da0ea6250)
 
 
