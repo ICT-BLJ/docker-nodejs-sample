@@ -8,10 +8,9 @@
 `$ git clone "Link"`
   
 - Installation der notwendigen Pakete
-1. 
+1. ? Which package manager do you want to use? npm
+2. 
 
 
 - Docker-Konfiguration und -Installation
 - Starten der Applikation in einem Docker-Container
-
-  
