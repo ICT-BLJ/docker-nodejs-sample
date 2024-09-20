@@ -1,12 +1,11 @@
 # Erstellen einer ToDo-Applikation mit Markdown, Git, GitHub und Docker
 
 - Klonen des Repositories
-1. From the repository, select the Clone button.
-2. Copy the clone command (either the SSH format or the HTTPS). ...
-3. From a terminal window, change to the local directory where you want to clone your repository.
-4. Paste the command you copied from Bitbucket, for example:
-   
-`$ git clone "kopierte Adresse"`
+1. Von der Seite gehst du auf Code
+2. Kopiere den HTTPS- oder den SSH-Link.
+3. Öffne CMD oder Git-Bash und schreibe:
+4. 
+`$ git clone "Link"`
   
 - Installation der notwendigen Pakete
 1. 
