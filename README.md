@@ -4,7 +4,9 @@
 1. Von der Git-Hub-Seite klickst du auf "Code"
 2. Kopiere den HTTPS- oder den SSH-Link.
 3. Öffne CMD oder Git-Bash und schreibe:
-4. `$ git clone "Link"`
+```
+   $ git clone "Link"
+```
 
 ---
   
@@ -16,8 +18,10 @@
 
 - **Docker-Konfiguration und -Installation**
 1. Im geöffnetem CMD oder Git-Bash gibt man folgenden Code ein:
-2. `$ docker init`
-3. Dann erscheinen verschiedene Fragen welche man wie folgt beantworten soll: 
+```
+$ docker init
+```
+5. Dann erscheinen verschiedene Fragen welche man wie folgt beantworten soll: 
 - ? What application platform does your project use?   *Node*
 - ? What version of Node do you want to use?           *18.0.0*
 - ? Which package manager do you want to use?          *npm*
@@ -27,17 +31,28 @@
 ---
 
 - **Starten der Applikation in einem Docker-Container 🐋**
-Nach der Konfiguration, muss man es nur noch ausführen.
+- Nach der Konfiguration, muss man es nur noch ausführen.
 1. Man geht wieder in den CMD oder Git-Bash
 2. Dort tippt man:
-3. `$ docker compose up --build`
+```
+   $ docker compose up --build
+```
 4. Die Applikation sollte ausgeführt werden.
 5. Wenn alles geklappt han kann man auf [localhost:3000](http://localhost:3000)
-6. Zum schliessen gilt `$ docker compose down`
-7. Und dann wieder zu öffnen `$ docker compose up`  
+6. Zum schliessen gilt
+```
+   $ docker compose down
+```
+8. Und dann wieder zu öffnen
+```
+   $ docker compose up
+```  
 
 Es Sollte so aussehen:
 
 ![localhost](https://github.com/user-attachments/assets/cf71a306-2f4d-4941-b75d-3d1da0ea6250)
+
+
+
 
 
